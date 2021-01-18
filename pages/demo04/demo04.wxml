@@ -1,0 +1,10 @@
+<input type="text" bindinput="handlerbindinput"/>
+<!-- bindtap 是不能直接传参数的；是通过自定义属性传参数；然后从事件源对象获取自定义属性 -->
+<button bindtap="handlerbindtab" data-oper="{{1}}">+1</button>
+<button bindtap="handlerbindtab" data-oper="{{-1}}">-1</button>
+<view >*****************</view>
+<view>
+    输入的值：{{value}}
+</view>
+
+

@@ -1,0 +1,6 @@
+view
+{
+    font-size: 80rpx;
+    background-color: orange;
+    font-style: inherit;
+}

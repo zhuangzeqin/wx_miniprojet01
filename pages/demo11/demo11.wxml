@@ -1,0 +1,19 @@
+<!-- 
+    navigator 导航标签  块级元素会换行
+    1 url  跳转的页面的路径 相对路径 或者绝对路径
+    2 target	在哪个目标上发生跳转，默认当前小程序
+        self 自己的小程序； 默认值
+        miniProgram  其它小程序
+    3 open-type 跳转的方式
+        navigate 对应 wx.navigateTo 或 wx.navigateToMiniProgram 的功能
+        保留当前页面； 跳转到一个新的页面； 但是不能跳转tabbar 页面(默认值)
+        redirect ：关闭当前页面； 跳转到一个新的页面； 也是不能跳转到tabbar 页面
+        switchTab: 跳转到一个tabbar 页面 并且关闭其它非tabbar页面
+        reLaunch: 关闭所有的页面； 跳转到应用内的一个页面； 比如我们的token 失效之后； 跳转到登录页面
+
+ -->
+<navigator target="self" url="/pages/demo10/demo10" open-type="navigate">轮播图页面</navigator>
+<navigator url="/pages/demo10/demo10" open-type="redirect">轮播图页面</navigator>
+<navigator url="/pages/index/index" open-type="switchTab">跳转到tabbar 页面</navigator>
+<navigator url="/pages/index/index" open-type="reLaunch">reLaunch: 关闭所有的页面； 跳转到应用内的一个页面</navigator>
+     

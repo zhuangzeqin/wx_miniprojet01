@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/demo18/demo18",    
+    "pages/demo17/demo17",    
+    "pages/demo16/demo16",   
+    "pages/demo15/demo15",   
+    "pages/demo14/demo14",   
+    "pages/demo13/demo13",   
+    "pages/demo12/demo12",   
+    "pages/demo11/demo11",   
+    "pages/demo10/demo10",   
+    "pages/demo09/demo09",      
+    "pages/demo08/demo08",    
+    "pages/demo07/demo07",   
+    "pages/demo06/demo06", 
+    "pages/demo05/demo05",   
+    "pages/demo04/demo04",  
+    "pages/demo03/demo03", 
+    "pages/index/index",
+    "pages/img/img", 
+    "pages/mine/mine",
+    "pages/search/search", 
+    "pages/demo01/demo01", 
+    "pages/demo02/demo02",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "我的第一个小程序的demo",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#cecece",
+     "pageOrientation": "auto"
+    
+  },
+  "tabBar": {
+    "color": "#cecece",
+    "selectedColor": "#0094ff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/hp_nor.png",
+        "selectedIconPath": "icons/hp_sel.png"
+      },
+      {
+        "pagePath": "pages/img/img",
+        "text": "数据",
+        "iconPath": "icons/data_nor.png",
+        "selectedIconPath": "icons/data_sel.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "应用",
+        "iconPath": "icons/app_nor.png",
+        "selectedIconPath": "icons/app_sel.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icons/my.png",
+        "selectedIconPath": "icons/my_sel.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,22 @@
+/* less 定义一个变量颜色 */
+@color:yellow;
+// text 标签引用了这个标签颜色
+text{
+    color: @color;
+}
+
+view
+{
+    vie01
+    {
+        text{
+            color: red;
+        }
+    }
+}
+//支持导入
+@import "../../styles/reset.less";
+view
+{
+    color:@themeColor;
+}

@@ -1,0 +1,31 @@
+<!-- 
+    轮播图外层容器必须是swiper
+    轮播项就是swiper-item
+    swiper 标签存在默认的样式 width 100% height是150px
+    image  标签也存在默认的演示 320*240
+    swiper 标签是无法实现内容撑开的
+    1 首先先找出原图的高度与宽度 比如  804   x   209 然后等比例给swiper 计算高度
+    swiper（w）/swiper(h)=804/209
+    swiper(h) =  swiper（w）209/804
+    height = 100vw*209/804
+
+    autoplay : 自动轮播
+    interval : 轮播时间
+    circular :  衔接轮播
+    indicator-dots：轮播指示灯
+    indicator-color：轮播指示灯 未选择的颜色
+    indicator-active-color：轮播指示灯 选择的颜色
+ -->
+
+<swiper autoplay interval="2000" circular indicator-dots indicator-color="#ff0094" indicator-active-color="#0094ff">
+    <swiper-item >
+        <image mode="widthFix" src="//gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F00%2F07%2F55%2F90%2F55778eaec3c42.jpg%21%2Ffwfh%2F804x209%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue&refer=http%3A%2F%2Fpic.90sjimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1613113918&t=725fac698470b6adb538ae069a64c358"/>
+    </swiper-item>
+    <swiper-item >
+        <image mode="widthFix" src="//gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F00%2F07%2F55%2F90%2F55778eaec3c42.jpg%21%2Ffwfh%2F804x209%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue&refer=http%3A%2F%2Fpic.90sjimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1613113918&t=725fac698470b6adb538ae069a64c358"/>
+    </swiper-item>
+    <swiper-item >
+        <image mode="widthFix" src="//gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F00%2F07%2F55%2F90%2F55778eaec3c42.jpg%21%2Ffwfh%2F804x209%2Fquality%2F90%2Funsharp%2Ftrue%2Fcompress%2Ftrue&refer=http%3A%2F%2Fpic.90sjimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1613113918&t=725fac698470b6adb538ae069a64c358"/>
+    </swiper-item>
+</swiper>
+  

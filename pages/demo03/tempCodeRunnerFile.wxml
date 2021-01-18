@@ -1,0 +1,7 @@
+<view>
+    {{msg}}
+</view>
+
+<view>
+    {{number}}
+</view>

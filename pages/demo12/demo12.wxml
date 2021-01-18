@@ -1,0 +1,10 @@
+
+<!-- 
+    rich-text 富文本标签  
+    nodes 属性  
+    1 可以接受一个字符串的富文本字符串内容 也就是标签字符串 具体支持哪些标签要看官方文档
+    2 可以接受一个对象数组
+ -->
+<rich-text nodes="{{html}}"></rich-text>
+<!-- 对象数组 -->
+<rich-text nodes="{{html1}}"></rich-text>

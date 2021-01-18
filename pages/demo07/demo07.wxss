@@ -1,0 +1,10 @@
+/* less 定义一个变量颜色 */
+text {
+  color: yellow;
+}
+view vie01 text {
+  color: red;
+}
+view {
+  color: green;
+}

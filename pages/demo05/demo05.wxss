@@ -1,0 +1,31 @@
+/* pages/demo05/demo05.wxss */
+/* 
+    1 小程序中不需要主动引入样式文件
+    2 需要由页面某些单位由px换成rpx
+    3 设计稿 750px  
+            750px=750rpx
+            1px = 1rpx
+            把屏幕宽度换成375
+            375px = 750rpx
+            1px = 2rpx
+    4 如果存在一个设计稿414 或者未知的 page
+    eg:比如设计稿pag 里面存在一个元素 100px
+    拿以上的需求实现不同宽度页面适配
+    page px = 750 rpx
+    1px = 750 rpx/page
+    100px = 750 rpx *100/ page
+    控件元素 100px  换算成rpx 实际值是多少？代入以上公式可以计算
+    假设 page = 375 px
+    5 利用一个属性calc 来帮我们计算 css 和wxss 都支持的一个属性
+      5.1 750 rpx 中间不能留空格
+      5.2 运算符的两边也不要留空格
+    calc(750rpx *100/ 375)
+*/
+view
+{
+    /* width: 200rpx; */
+    height: 200rpx;
+    background-color: brown;
+    font-size: 40rpx;
+    width: calc(750rpx*100/375);
+}

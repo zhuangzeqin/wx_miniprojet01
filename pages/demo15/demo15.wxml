@@ -1,0 +1,11 @@
+<!-- radio  单选按钮 
+    1 必须与父元素 <radio-group bindchange=""> 一起使用
+    2 value radio 标签绑定的值 -->
+<radio-group bindchange="handlebindchange" >
+    <radio value="1" checked="{{true}}" color="#0094ff" >男生</radio>
+    <radio value="0" color="red">女生</radio>
+</radio-group>
+
+<view >
+    你选择的是：{{sex}}
+</view>

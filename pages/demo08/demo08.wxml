@@ -1,0 +1,6 @@
+<!-- 
+    1 长按复制 使用改selectable 属性
+    2 对文本进行解码 decode 属性
+ -->
+
+<text selectable decode>abcddddkk &nbsp;abcddddkk &lt;</text>

@@ -1,0 +1,10 @@
+<!-- 
+    icon 小程序的图标
+  type 图标类型： success|success_no_circle|info|warn|waiting|cancel|download|search|clea
+  size 图标大小
+  color 图标颜色
+ -->
+<icon  type="success_no_circle" size="23" color="#0094ff">
+    
+</icon>
+  
