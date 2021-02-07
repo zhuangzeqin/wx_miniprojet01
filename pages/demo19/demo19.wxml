@@ -1,0 +1,7 @@
+<!--pages/demo19/demo19.wxml-->
+<text>pages/demo19/demo19.wxml</text>
+<button bindtap="handleCallPhone" plain="{{true}}" type="primary">
+   拨打电话
+</button>
+<web-view src="https://developers.weixin.qq.com/miniprogram/dev/framework/" bindmessage="">打开网页</web-view>
+
